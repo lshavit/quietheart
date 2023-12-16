@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "androidstudio"
+rootProject.name = "quietheart"
 include(":app")

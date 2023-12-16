@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* цвет фона по вашему выбору */
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #fff; /* цвет фона по вашему выбору */
+    padding: 20px;
+}
+
+.phone-frame {
+    position: relative;
+    width: 320px; /* ширина рамки телефона */
+    height: 640px; /* высота рамки телефона */
+    margin: 0 auto;
+    background: url('/img/screen.jpg') no-repeat; /* изображение рамки телефона */
+    background-size: cover;
+}
+
+.screen {
+    position: absolute;
+    top: 30px; /* отступ сверху внутри рамки телефона */
+    left: 15px; /* отступ слева внутри рамки телефона */
+    width: 290px; /* ширина экрана внутри рамки телефона */
+    height: 500px; /* высота экрана внутри рамки телефона */
+    background-color: #fff; /* цвет фона экрана по вашему выбору */
+}
+
