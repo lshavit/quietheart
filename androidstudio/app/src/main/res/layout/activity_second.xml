@@ -1,17 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    tools:context=".SecondActivity">
 
     <ImageView
-        android:id="@+id/heartImageView"
-        android:layout_width="262dp"
-        android:layout_height="239.81dp"
-        android:src="@drawable/img_heart"
+        android:id="@+id/h1ImageView"
+        android:layout_width="266.27dp"
+        android:layout_height="235dp"
+        android:src="@drawable/img_heart2"
         android:layout_centerInParent="true"
-        android:clickable="true"
-        android:onClick="onHeartClick" />
+        android:alpha="1.0" />
 
-</RelativeLayout>
+    <ImageView
+        android:id="@+id/h2ImageView"
+        android:layout_width="266.27dp"
+        android:layout_height="235dp"
+        android:src="@drawable/img_heart2"
+        android:layout_centerInParent="true"
+        android:alpha="1.0" />
+
+    <ImageView
+        android:id="@+id/heart2ImageView"
+        android:layout_width="266.27dp"
+        android:layout_height="235dp"
+        android:src="@drawable/img_heart2"
+        android:layout_centerInParent="true"
+        android:alpha="1.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu" />
+    </RelativeLayout>
