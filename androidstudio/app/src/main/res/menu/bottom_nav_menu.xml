@@ -1,18 +1,16 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/menu_item1"
-        android:title="Секция 1"
-        android:icon="@drawable/ic_section1" />
-
+        android:icon="@drawable/img_sec1"
+        android:title="Кнопка 1" />
     <item
         android:id="@+id/menu_item2"
-        android:title="Секция 2"
-        android:icon="@drawable/ic_section2" />
-
+        android:icon="@drawable/ic_section2"
+        android:title="Кнопка 2" />
     <item
         android:id="@+id/menu_item3"
-        android:title="Секция 3"
-        android:icon="@drawable/ic_section3" />
-
+        android:icon="@drawable/ic_section3"
+        android:title="Кнопка 3" />
 </menu>

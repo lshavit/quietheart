@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.Quietheart.Main">
 
     <ImageView
         android:id="@+id/tiheImageView"
@@ -10,9 +11,11 @@
         android:layout_height="46dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="220dp"
         android:adjustViewBounds="true"
         android:src="@drawable/img_tihe" />
+
+
 
     <ImageView
         android:id="@+id/serceImageView"
@@ -20,38 +23,21 @@
         android:layout_height="71dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="200dp"
         android:adjustViewBounds="true"
         android:src="@drawable/img_serce" />
 
-    <ImageView
-        android:id="@+id/hand1ImageView"
-        android:layout_width="278.03dp"
-        android:layout_height="259.57dp"
-        android:src="@drawable/img_hand1"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="-40dp"
-        android:adjustViewBounds="true" />
-
-    <ImageView
-        android:id="@+id/hand2ImageView"
-        android:layout_width="263.65dp"
-        android:layout_height="255.41dp"
-        android:src="@drawable/img_hand2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="-40dp"
-        android:adjustViewBounds="true" />
 
     <ImageView
         android:id="@+id/heartImageView"
-        android:layout_width="294dp"
-        android:layout_height="239.81dp"
-        android:src="@drawable/img_heart"
+        android:layout_width="246dp"
+        android:layout_height="227.81dp"
         android:layout_centerInParent="true"
+        android:alpha="1.0"
         android:clickable="true"
         android:onClick="onHeartClick"
-        android:alpha="1.0" />
+        android:src="@drawable/img_heart" />
+
+
 
 </RelativeLayout>
